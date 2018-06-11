@@ -1,6 +1,8 @@
 {
+  "parser": "babel-eslint",
   "extends": ["airbnb"],
   "rules": {
+    "strict": 0,
     "semi": ["error", "never"],
     "arrow-parens": ["error", "as-needed"],
     "function-paren-newline": ["error", "consistent"],
