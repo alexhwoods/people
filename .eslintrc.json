@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb"],
+  "rules": {
+    "semi": ["error", "never"],
+    "arrow-parens": ["error", "as-needed"],
+    "function-paren-newline": ["error", "consistent"],
+    "object-curly-newline": ["error", { "consistent": true }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  }
+}
