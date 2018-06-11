@@ -5,7 +5,6 @@
     "arrow-parens": ["error", "as-needed"],
     "function-paren-newline": ["error", "consistent"],
     "object-curly-newline": ["error", { "consistent": true }],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "class-methods-use-this": ["false"]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }
