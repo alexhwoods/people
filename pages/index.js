@@ -1,7 +1,3 @@
-import React from 'react'
+import Home from './Home'
 
-export default () => (
-  <div>
-    <p>Gametime</p>
-  </div>
-)
+export default Home
