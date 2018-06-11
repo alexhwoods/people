@@ -66,8 +66,19 @@ const data = [
   },
 ]
 
-export default () => (
-  <div style={styles.container}>
-    {data.map(person => <Person key={data.indexOf(person)} {...person} />)}
-  </div>
-)
+class Home extends React.Component {
+  handleClick = () => console.log('Button clicked')
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleClick}>Get People</button>
+        <div style={styles.container}>
+          {data.map(person => <Person key={data.indexOf(person)} {...person} />)}
+        </div>
+      </div>
+    )
+  }
+}
+
+export default Home
