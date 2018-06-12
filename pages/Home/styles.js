@@ -6,4 +6,9 @@ export default {
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dropdownContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 }
