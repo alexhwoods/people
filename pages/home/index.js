@@ -6,7 +6,7 @@ import Dropdown from './components/Dropdown'
 import FrequencyDisplay from './components/FrequencyDisplay'
 import { getPeople } from '../../services/network'
 
-class Home extends React.Component {
+class HomePage extends React.Component {
   constructor() {
     super()
     this.state = { data: undefined, display: 'data' }
@@ -42,4 +42,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home
+export default HomePage
