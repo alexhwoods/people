@@ -4,6 +4,7 @@ import styles from './styles'
 import Person from './components/Person'
 import Dropdown from './components/Dropdown'
 import FrequencyDisplay from './components/FrequencyDisplay'
+import DuplicateDisplay from './components/DuplicateDisplay'
 import { getPeople } from '../../services/network'
 
 class HomePage extends React.Component {
@@ -36,6 +37,7 @@ class HomePage extends React.Component {
               <Person key={data.indexOf(person)} {...person} />
             ))}
           {display === 'frequency' && <FrequencyDisplay data={data} />}
+          {display === 'duplicates' && <DuplicateDisplay data={data} />}
         </div>
       </div>
     )
